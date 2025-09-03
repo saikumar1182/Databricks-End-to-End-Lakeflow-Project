@@ -38,8 +38,6 @@ Checkpoints Bronze Volume : /Volumes/workspace/bronze/bronzevolume/airports/chec
 
 Data Bronze Volume : /Volumes/catalog/bronze_schema/bronze_volume/airports/data
 
-![screenshot](images/Catalog.png)
-
 ### Bronze ingestion (Auto Loader job)
 
 Notebook: bronze_ingest_autoloader
