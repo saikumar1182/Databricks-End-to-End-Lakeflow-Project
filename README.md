@@ -2,6 +2,8 @@
 
 This repo contains an end‑to‑end Databricks Lakehouse pipeline that ingests raw CSVs into Unity Catalog Volumes, lands them in Bronze via incremental Structured Streaming (Auto Loader), transforms to Silver using ETL + Delta Live Tables (DLT), and builds Gold dimensional models (dim_airports, dim_flights, dim_customers, fact_bookings) with SCD Type 1 and CDC semantics.
 
+![Data Flow arrchitecture](images/databricks_project.png)
+
 ### Prerequisites
 
 - Databricks workspace with Unity Catalog enabled.
